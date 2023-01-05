@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <style type="text/css">
+
+        .estilo1{
+            background: yellow;
+        }
+
+        .estilo2{
+            background: red;
+        }
+
+        .estilo3{
+            background: green;
+        }
+
+
+    </style>
+    <script>
+
+
+        function ganhouFoco() {
+            document.getElementById('texto').className = "estilo1"
+        }
+        
+        function perdeuFoco () {
+
+        var quantidade = document.getElementById('texto').value
+
+        if (quantidade.length < 3) {
+             document.getElementById('texto').className = "estilo2"
+        }
+        if (quantidade.length >= 3) {
+             document.getElementById('texto').className = "estilo3"
+        }
+    }
+	</script>
+    
+</head>
+<body>
+   
+   <input id="texto" type="text" onfocus="ganhouFoco()" onblur="perdeuFoco()" class="">
+   
+
+</body>
+</html>
