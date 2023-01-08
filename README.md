@@ -1,5 +1,5 @@
 # Apoio-JavaScript
-# CallBack
+# CallBack.
 ![3](https://user-images.githubusercontent.com/86329011/210679083-83ae8188-ef95-48c7-ae5d-b5cf007a3880.PNG)
 # Tratamento de Erros
 ![4](https://user-images.githubusercontent.com/86329011/210679087-1e478c76-c2ff-4963-a2a2-d181c4bdd8d2.PNG)
